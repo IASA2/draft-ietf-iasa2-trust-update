@@ -89,7 +89,7 @@
       
       <t>For a discussion of why this change is needed and a rationale
       for these specific changes, see <xref
-      target="I-D.arkko-iasa2-trust-rationale"/>.</t>
+      target="I-D.ietf-iasa2-trust-rationale"/>.</t>
       
     </section>
     
@@ -161,7 +161,7 @@
     
     <references title="Informative References">
 
-      <reference anchor='I-D.arkko-iasa2-trust-rationale'>
+      <reference anchor='I-D.ietf-iasa2-trust-rationale'>
 	<front>
 	  <title>Discussion of the Effects of IASA 2.0 Changes as They Relate to the IETF
 	  Trust</title>
@@ -170,12 +170,12 @@
 	    <organization />
 	  </author>
 
-	  <date month='June' year='2018' />
+	  <date month='September' year='2018' />
 
 	</front>
-	<seriesInfo name='Internet-Draft' value='draft-arkko-iasa2-trust-rationale-00' />
+	<seriesInfo name='Internet-Draft' value='draft-ietf-iasa2-trust-rationale-00' />
 	<format type='TXT'
-		target='http://www.ietf.org/internet-drafts/draft-arkko-iasa2-trust-rationale-00.txt' />
+		target='http://www.ietf.org/internet-drafts/draft-ietf-iasa2-trust-rationale-00.txt' />
       </reference>
       
     </references>
