@@ -136,6 +136,16 @@
 
     </section>
 
+    <section anchor="changes" title="Changes from Previous Versions">
+
+      <t>RFC Editor: Please remove this section upon publication.</t>
+
+      <t>The version draft-ietf-iasa2-trust-update updated the
+      document status to BCP, and made several editorial and language
+      updates.</t>
+
+    </section>
+
   </middle>
 
   <back>
