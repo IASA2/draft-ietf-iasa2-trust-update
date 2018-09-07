@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE rfc SYSTEM "rfc2629.dtd" [
+
+<!ENTITY RFC7437 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7437.xml">
+<!ENTITY RFC4071 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.4071.xml">
+<!ENTITY RFC4371 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.4371.xml">
+
+]>
+
+<?xml-stylesheet type='text/xsl' href='rfc2629.xslt' ?>
+<?rfc strict="yes" ?>
+<?rfc toc="yes"?>
+<?rfc tocdepth="4"?>
+<?rfc symrefs="yes"?>
+<?rfc sortrefs="yes" ?>
+<?rfc compact="yes" ?>
+<?rfc subcompact="no" ?>
+<rfc category="info" docName="draft-arkko-iasa2-trust-update-00" ipr="trust200902" updates="4071,4371">
+
+  <front>
+
+    <title abbrev="Trustees for the IETF Trust">Update to the Selection of Trustees for the IETF Trust</title>
+
+    <author fullname="Jari Arkko" initials="J." 
+            surname="Arkko">
+      <organization>Ericsson</organization>
+
+      <address>
+        <postal>
+          <street></street>
+
+          <city>Kauniainen</city>
+
+          <region></region>
+
+          <code>02700</code>
+
+          <country>Finland</country>
+        </postal>
+
+        <email>jari.arkko@piuha.net</email>
+
+      </address>
+    </author>
+    
+    <author fullname="Ted Hardie" initials="T." 
+            surname="Hardie">
+      <address>
+        <email>ted.ietf@gmail.com</email>
+      </address>
+    </author>
+    
+    <date month="June" year="2018" />
+
+    <area>General</area>
+
+    <workgroup>Internet Engineering Task Force</workgroup>
+
+    <abstract>
+
+      <t>This memo updates the selection of trustees for the IETF
+      Trust. Previously, the Internet Administrative Oversight 
+      Committee (IAOC) members also acted as trustees but the IAOC 
+      has been eliminated as part of an update of the structure of 
+      the Internet Administrative Support Activity (IASA). This memo 
+      specifies that the trustees shall be selected separately.</t>
+
+      <t>This memo updates RFCs 4071 and 4371 with regards to the
+      selection of trustees. All other aspects of the IETF Trust
+      remain as they are today.</t>
+      
+    </abstract>
+  </front>
+
+  <middle>
+
+    <section title="Introduction">
+
+      <t>This memo updates the selection of trustees for the IETF
+      Trust. Previously, the Internet Administrative Oversight 
+      Committee (IAOC) members also acted as trustees but the IAOC 
+      has been eliminated as part of an update of the structure of 
+      the Internet Administrative Support Activity (IASA). This memo 
+      specifies that the trustees shall be selected separately.</t>    
+
+      <t>This memo updates RFCs 4071 and 4371 with regards to the
+      selection of trustees. All other aspects of the IETF Trust
+      remain as they are today.</t>
+      
+      <t>For a discussion of why this change is needed and a rationale
+      for these specific changes, see <xref
+      target="I-D.arkko-iasa2-trust-rationale"/>.</t>
+      
+    </section>
+    
+    <section anchor="selection" title="Selection of Trustees">
+      
+      <t>This document revises the original Trustee selection procedures
+      defined in <xref target="RFC4071"/> and <xref target="RFC4371"/>, 
+      to eliminate the requirement that trustees be drawn from the 
+      members of the IAOC.</t>  
+	    
+      <t>In this newly revised IETF Trust structure, there will be five Trustees. 
+      Three shall appointed by the IETF Nominating Committee (NomCom) 
+      and confirmed by the Internet Engineering Steering Group (IESG), 
+      one shall be appointed by the IESG, and one shall be appointed by
+      the Internet Society (ISOC) Board of Trustees.</t>
+      
+      <t>The IETF Trust will provide a list of desired qualifications
+      for the Trustee positions to each appointing body.</t>
+      
+      <t>A change to the Trust Agreement is required to effectuate
+      this change, and this document requests that the current Trustees
+      make this change at their earliest convenience and no later than the 
+      end of the 104th IETF meeting in March 2019.</t>
+      
+      <t>The terms of the appointed trustees from IETF NomCom 
+      shall be three years. The initial selection shall be
+      one, two, and three year terms in order to initially stagger the 
+      terms and thus miminize potential annual Trustee turnover. The other 
+      appointments by the IESG and the ISOC Board of Trustees shall be two 
+      year terms, with the initial terms being one and two years, respectively.</t>
+      
+      <t>IETF rules regarding recalls and other Nomcom-related
+      processes continue to apply <xref target="RFC7437"/>.</t>
+
+    </section>
+
+    <section anchor="ack" title="Acknowledgements">
+
+      <t>The authors would like to thank members of the earlier IASA
+      2.0 design team who were Brian Haberman, Eric Rescorla, Jari Arkko, Jason Livingood,
+      Joe Hall, and Leslie Daigle. The authors would also like to thank Alissa Cooper, Andrew Sullivan,
+      Brian Carpenter, Lucy Lynch, and John Levine for interesting
+      discussions in this problem space.</t>
+
+    </section>
+
+  </middle>
+
+  <back>
+
+    <references title="Normative References">
+      &RFC4071;
+      &RFC4371;
+      &RFC7437;
+    </references>
+    
+    <references title="Informative References">
+
+      <reference anchor='I-D.arkko-iasa2-trust-rationale'>
+	<front>
+	  <title>Discussion of the Effects of IASA 2.0 Changes as They Relate to the IETF
+	  Trust</title>
+
+	  <author initials='J' surname='Arkko' fullname='Jari Arkko'>
+	    <organization />
+	  </author>
+
+	  <date month='June' year='2018' />
+
+	</front>
+	<seriesInfo name='Internet-Draft' value='draft-arkko-iasa2-trust-rationale-00' />
+	<format type='TXT'
+		target='http://www.ietf.org/internet-drafts/draft-arkko-iasa2-trust-rationale-00.txt' />
+      </reference>
+      
+    </references>
+
+  </back>
+</rfc>
