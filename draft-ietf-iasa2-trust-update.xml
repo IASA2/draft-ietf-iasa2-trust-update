@@ -140,10 +140,13 @@
 
       <t>RFC Editor: Please remove this section upon publication.</t>
 
-      <t>The version draft-ietf-iasa2-trust-update updated the
+      <t>The version draft-ietf-iasa2-trust-update-00.txt updated the
       document status to BCP, and made several editorial and language
       updates.</t>
 
+      <t>The version draft-arkko-iasa2-trust-update-00.txt was the
+      initial version.</t>
+      
     </section>
 
   </middle>
