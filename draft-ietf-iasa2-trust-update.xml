@@ -15,7 +15,7 @@
 <?rfc sortrefs="yes" ?>
 <?rfc compact="yes" ?>
 <?rfc subcompact="no" ?>
-<rfc category="info" docName="draft-ietf-iasa2-trust-update-00" ipr="trust200902" updates="4071,4371">
+<rfc category="bcp" docName="draft-ietf-iasa2-trust-update-00" ipr="trust200902" updates="4071,4371">
 
   <front>
 
@@ -109,10 +109,10 @@
       <t>The IETF Trust will provide a list of desired qualifications
       for the Trustee positions to each appointing body.</t>
       
-      <t>A change to the Trust Agreement is required to effectuate
-      this change, and this document requests that the current Trustees
-      make this change at their earliest convenience and no later than the 
-      end of the 104th IETF meeting in March 2019.</t>
+      <t>A change to the Trust Agreement is required to put this
+      change into effect, and this document requests that the current
+      Trustees make this change at their earliest convenience and no
+      later than the end of the 104th IETF meeting in March 2019.</t>
       
       <t>The terms of the appointed trustees from IETF NomCom 
       shall be three years. The initial selection shall be
@@ -121,7 +121,7 @@
       appointments by the IESG and the ISOC Board of Trustees shall be two 
       year terms, with the initial terms being one and two years, respectively.</t>
       
-      <t>IETF rules regarding recalls and other Nomcom-related
+      <t>IETF rules regarding recalls and other NomCom-related
       processes continue to apply <xref target="RFC7437"/>.</t>
 
     </section>
