@@ -106,7 +106,7 @@
       one shall be appointed by the IESG, and one shall be appointed by
       the Internet Society (ISOC) Board of Trustees.</t>
       
-      <t>The IETF Executive Director informs the nominating committee
+      <t>The IETF Trust Chair informs the nominating committee
       of the Trustee positions to be reviewed. The IETF Trust will
       provide a summary of the expertise desired of the Trustee
       candidates to each appointing body.</t>
@@ -124,11 +124,11 @@
       respectively.
 
       The goal of the staggered initial terms is to minimize potential
-      annual Trustee turnover. To maintain the staggered terms, each
-      appointing body may at its discretion appoint Trustees for
-      shorter terms as needed in exceptional situations, e.g., for
-      mid-term vacancies or when an appointment is not ready by
-      the time of the first IETF of the year.</t>
+      Trustee turnover in any single year. To maintain the
+      staggered terms, each appointing body may at its discretion
+      appoint Trustees for shorter terms as needed in exceptional
+      situations, e.g., for mid-term vacancies or when an appointment
+      is not ready by the time of the first IETF of the year.</t>
       
       <t>The processes regarding NomCom appointments and recalls of
       Trustees for the IETF Trust follow those described in <xref
@@ -146,6 +146,19 @@
 
       <t>This memo requests no action from IANA.</t>
       
+    </section>
+
+    <section anchor="ack" title="Acknowledgements">
+
+      <t>The authors would like to thank members of the earlier IASA
+      2.0 design team who were Brian Haberman, Eric Rescorla, Jari
+      Arkko, Jason Livingood, Joe Hall, and Leslie Daigle. The authors
+      would also like to thank Alissa Cooper, Andrew Sullivan, Brian
+      Carpenter, Lucy Lynch, and John Levine for interesting
+      discussions in this problem space. The authors would also like
+      to thank Russ Housley, Bob Hinden, Scott Mansfield, and Adrian
+      Farrel for careful review.</t>
+
     </section>
 
   </middle>
@@ -179,28 +192,15 @@
       
     </references>
 
-    <section anchor="ack" title="Acknowledgements">
-
-      <t>The authors would like to thank members of the earlier IASA
-      2.0 design team who were Brian Haberman, Eric Rescorla, Jari
-      Arkko, Jason Livingood, Joe Hall, and Leslie Daigle. The authors
-      would also like to thank Alissa Cooper, Andrew Sullivan, Brian
-      Carpenter, Lucy Lynch, and John Levine for interesting
-      discussions in this problem space. The authors would also like
-      to thank Russ Housley, Bob Hinden, Scott Mansfield, and Adrian
-      Farrel for careful review.</t>
-
-    </section>
-
     <section anchor="changes" title="Changes from Previous Versions">
 
       <t>RFC Editor: Please remove this section upon publication.</t>
 
       <t>The version draft-ietf-iasa2-trust-update-01.txt has taken
       into account last call comments. The changes are: 1)
-      Clarification of the role of the IETF Executive director to
-      indicate which trustee positions are up for selection, as RFC
-      7437 did not explicitly name the IETF Trust in this regard. 2)
+      Clarification of the role of the IETF Trust Chair to
+      indicate which trustee positions are up for selection, similar to how RFC
+      7437 requires the IETF Executive Director to do it. 2)
       The addition of empty security and IANA consideration
       sections. 3) The clarification of the staggering rules for
       NomCom selections. 4) Updated text regarding the application of
