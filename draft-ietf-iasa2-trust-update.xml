@@ -19,7 +19,7 @@
 
   <front>
 
-    <title abbrev="Trustees for the IETF Trust">Update to the Selection of Trustees for the IETF Trust</title>
+    <title abbrev="Trustees for the IETF Trust">Update to the Process for Selection of Trustees for the IETF Trust</title>
 
     <author fullname="Jari Arkko" initials="J." 
             surname="Arkko">
@@ -58,9 +58,9 @@
 
     <abstract>
 
-      <t>This memo updates the selection of trustees for the IETF
+      <t>This memo updates the process for selection of trustees for the IETF
       Trust. Previously, the Internet Administrative Oversight 
-      Committee (IAOC) members also acted as trustees but the IAOC 
+      Committee (IAOC) members also acted as trustees, but the IAOC 
       has been eliminated as part of an update of the structure of 
       the Internet Administrative Support Activity (IASA). This memo 
       specifies that the trustees shall be selected separately.</t>
@@ -76,9 +76,9 @@
 
     <section title="Introduction">
 
-      <t>This memo updates the selection of trustees for the IETF
+      <t>This memo updates the process for selection of trustees for the IETF
       Trust. Previously, the Internet Administrative Oversight 
-      Committee (IAOC) members also acted as trustees but the IAOC 
+      Committee (IAOC) members also acted as trustees, but the IAOC 
       has been eliminated as part of an update of the structure of 
       the Internet Administrative Support Activity (IASA). This memo 
       specifies that the trustees shall be selected separately.</t>    
@@ -106,48 +106,45 @@
       one shall be appointed by the IESG, and one shall be appointed by
       the Internet Society (ISOC) Board of Trustees.</t>
       
-      <t>The IETF Trust will provide a list of desired qualifications
-      for the Trustee positions to each appointing body.</t>
+      <t>The IETF Executive Director informs the nominating committee
+      of the Trustee positions to be reviewed. The IETF Trust will
+      provide a summary of the expertise desired of the Trustee
+      candidates to each appointing body.</t>
       
       <t>A change to the Trust Agreement is required to put this
       change into effect, and this document requests that the current
       Trustees make this change at the earliest convenient time and no
       later than the end of the 104th IETF meeting in March 2019.</t>
       
-      <t>The terms of the appointed trustees from IETF NomCom 
-      shall be three years. The initial selection shall be
-      one, two, and three year terms in order to initially stagger the 
-      terms and thus miminize potential annual Trustee turnover. The other 
-      appointments by the IESG and the ISOC Board of Trustees shall be two 
-      year terms, with the initial terms being one and two years, respectively.</t>
+      <t>The terms of the appointed trustees from IETF NomCom shall be
+      three years.  The initial selection shall be one, two, and three
+      year terms in order to initially stagger the terms. The other
+      appointments by the IESG and the ISOC Board of Trustees shall be
+      two year terms, with the initial terms being one and two years,
+      respectively.
+
+      The goal of the staggered initial terms is to minimize potential
+      annual Trustee turnover. To maintain the staggered terms, each
+      appointing body may at its discretion appoint Trustees for
+      shorter terms as needed in exceptional situations, e.g., for
+      mid-term vacancies or when an appointment is not ready by
+      the time of the first IETF of the year.</t>
       
-      <t>IETF rules regarding recalls and other NomCom-related
-      processes continue to apply <xref target="RFC7437"/>.</t>
+      <t>The processes regarding NomCom appointments and recalls of
+      Trustees for the IETF Trust follow those described in <xref
+      target="RFC7437"/>.</t>
 
     </section>
 
-    <section anchor="ack" title="Acknowledgements">
+    <section title="Security Considerations">
 
-      <t>The authors would like to thank members of the earlier IASA
-      2.0 design team who were Brian Haberman, Eric Rescorla, Jari Arkko, Jason Livingood,
-      Joe Hall, and Leslie Daigle. The authors would also like to thank Alissa Cooper, Andrew Sullivan,
-      Brian Carpenter, Lucy Lynch, and John Levine for interesting
-      discussions in this problem space.</t>
-
+      <t>This memo has no security implications for the Internet.</t>
+      
     </section>
+    
+    <section title="IANA Considerations">
 
-    <section anchor="changes" title="Changes from Previous Versions">
-
-      <t>RFC Editor: Please remove this section upon publication.</t>
-
-      <t>The version draft-ietf-iasa2-trust-update-00.txt corrected
-      the desired document status to BCP, and made several editorial
-      and language updates. This version also updated the wording for
-      the request for the current trustees to adopt this change, from
-      "earliest convenience" to "earliest convenient time".</t>
-
-      <t>The version draft-arkko-iasa2-trust-update-00.txt was the
-      initial version.</t>
+      <t>This memo requests no action from IANA.</t>
       
     </section>
 
@@ -181,6 +178,48 @@
       </reference>
       
     </references>
+
+    <section anchor="ack" title="Acknowledgements">
+
+      <t>The authors would like to thank members of the earlier IASA
+      2.0 design team who were Brian Haberman, Eric Rescorla, Jari
+      Arkko, Jason Livingood, Joe Hall, and Leslie Daigle. The authors
+      would also like to thank Alissa Cooper, Andrew Sullivan, Brian
+      Carpenter, Lucy Lynch, and John Levine for interesting
+      discussions in this problem space. The authors would also like
+      to thank Russ Housley, Bob Hinden, Scott Mansfield, and Adrian
+      Farrel for careful review.</t>
+
+    </section>
+
+    <section anchor="changes" title="Changes from Previous Versions">
+
+      <t>RFC Editor: Please remove this section upon publication.</t>
+
+      <t>The version draft-ietf-iasa2-trust-update-01.txt has taken
+      into account last call comments. The changes are: 1)
+      Clarification of the role of the IETF Executive director to
+      indicate which trustee positions are up for selection, as RFC
+      7437 did not explicitly name the IETF Trust in this regard. 2)
+      The addition of empty security and IANA consideration
+      sections. 3) The clarification of the staggering rules for
+      NomCom selections. 4) Updated text regarding the application of
+      rules from RFC 7437. 5) Update draft title to be correct in
+      terms of specifying a process rather than the actual persons.
+      6) Update the text regarding desirable expertise to use the
+      same language as in RFC 7437 instead of the "list of desired
+      qualifications".</t>
+      
+      <t>The version draft-ietf-iasa2-trust-update-00.txt corrected
+      the desired document status to BCP, and made several editorial
+      and language updates. This version also updated the wording for
+      the request for the current trustees to adopt this change, from
+      "earliest convenience" to "earliest convenient time".</t>
+
+      <t>The version draft-arkko-iasa2-trust-update-00.txt was the
+      initial version.</t>
+      
+    </section>
 
   </back>
 </rfc>
