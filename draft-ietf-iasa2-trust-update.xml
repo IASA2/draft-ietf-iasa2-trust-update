@@ -15,7 +15,7 @@
 <?rfc sortrefs="yes" ?>
 <?rfc compact="yes" ?>
 <?rfc subcompact="no" ?>
-<rfc category="bcp" docName="draft-ietf-iasa2-trust-update-01" ipr="trust200902" updates="4071,4371">
+<rfc category="bcp" docName="draft-ietf-iasa2-trust-update-02" ipr="trust200902" updates="4071,4371">
 
   <front>
 
@@ -100,11 +100,13 @@
       to eliminate the requirement that trustees be drawn from the 
       members of the IAOC.</t>  
 	    
-      <t>In this newly revised IETF Trust structure, there will be five Trustees. 
-      Three shall appointed by the IETF Nominating Committee (NomCom) 
-      and confirmed by the Internet Engineering Steering Group (IESG), 
-      one shall be appointed by the IESG, and one shall be appointed by
-      the Internet Society (ISOC) Board of Trustees.</t>
+      <t>In this newly revised IETF Trust structure, there will be
+      five Trustees.  Three shall be appointed by the IETF Nominating
+      Committee (NomCom) and confirmed by the Internet Engineering
+      Steering Group (IESG), one shall be appointed by the IESG, and
+      one shall be appointed by the Internet Society (ISOC) Board of
+      Trustees. The appointments by the IESG and ISOC Board of
+      Trustees do not require confirmation.</t>
       
       <t>The IETF Trust Chair informs the nominating committee
       of the Trustee positions to be reviewed. The IETF Trust will
@@ -129,10 +131,19 @@
       appoint Trustees for shorter terms as needed in exceptional
       situations, e.g., for mid-term vacancies or when an appointment
       is not ready by the time of the first IETF of the year.</t>
+
+      <t>Once the initial trustee selections according to the
+      procedures in this document are complete, and at each subsequent
+      annual meeting of the IETF Trust once new trustees are seated,
+      the trustees shall elect by a majority vote of the IETF Trust
+      one trustee to serve as IETF Trust Chair.</t>
       
       <t>The processes regarding NomCom appointments and recalls of
       Trustees for the IETF Trust follow those described in <xref
-      target="RFC7437"/>.</t>
+      target="RFC7437"/>. For the appointments by the IESG, the
+      IESG is expected to run an open selection process and to consider
+      the necessary skill set and conflicts of interest as part of
+      that process.</t>
 
     </section>
 
@@ -156,7 +167,9 @@
       would also like to thank Alissa Cooper, Andrew Sullivan, Brian
       Carpenter, Lucy Lynch, and John Levine for interesting
       discussions in this problem space. The authors would also like
-      to thank Russ Housley, Bob Hinden, Scott Mansfield, and Adrian
+      to thank Russ Housley, Bob Hinden, Scott Mansfield, Alexey
+      Melnikov, Suresh Krishnan, Mirja Kuhlewind, Ben Campbell,
+      Spencer Dawkins, Martin Vigoreux, Benjamin Kaduk, and Adrian
       Farrel for careful review.</t>
 
     </section>
@@ -196,6 +209,13 @@
 
       <t>RFC Editor: Please remove this section upon publication.</t>
 
+      <t>The version draft-itef-iasa2-trust-update-02.txt made some
+      editorial corrections, as well as clarifying that no
+      confirmation is needed in the cases other than the nomcom
+      appointment, specified how IETF Trust chair is chosen, and
+      required that an open process be used by the IESG for the
+      selections.</t>
+      
       <t>The version draft-ietf-iasa2-trust-update-01.txt has taken
       into account last call comments. The changes are: 1)
       Clarification of the role of the IETF Trust Chair to
