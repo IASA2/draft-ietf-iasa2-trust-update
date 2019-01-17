@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII"?>
 <!DOCTYPE rfc SYSTEM "rfc2629.dtd" [
 
-<!ENTITY RFC7437 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7437.xml">
+<!ENTITY I-D.ietf-iasa2-rfc7437bis SYSTEM "http://xml.resource.org/public/rfc/bibxml3/reference.I-D.ietf-iasa2-rfc7437bis.xml">
 <!ENTITY RFC4071 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.4071.xml">
 <!ENTITY RFC4371 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.4371.xml">
 
@@ -15,7 +15,7 @@
 <?rfc sortrefs="yes" ?>
 <?rfc compact="yes" ?>
 <?rfc subcompact="no" ?>
-<rfc category="bcp" docName="draft-ietf-iasa2-trust-update-02" ipr="trust200902" updates="4071,4371">
+<rfc category="bcp" docName="draft-ietf-iasa2-trust-update-03pre1b" ipr="trust200902" obsoletes="4371">
 
   <front>
 
@@ -50,7 +50,7 @@
       </address>
     </author>
     
-    <date month="October" year="2018" />
+    <date month="January" year="2019" />
 
     <area>General</area>
 
@@ -65,7 +65,7 @@
       the Internet Administrative Support Activity (IASA). This memo 
       specifies that the trustees shall be selected separately.</t>
 
-      <t>This memo updates RFCs 4071 and 4371 with regards to the
+      <t>This memo obsoletes RFC 4371. The changes relate only to the
       selection of trustees. All other aspects of the IETF Trust
       remain as they are today.</t>
       
@@ -81,11 +81,14 @@
       Committee (IAOC) members also acted as trustees, but the IAOC 
       has been eliminated as part of an update of the structure of 
       the Internet Administrative Support Activity (IASA). This memo 
-      specifies that the trustees shall be selected separately.</t>    
+      specifies that the trustees shall be selected separately. See
+      <xref target="selection"/>.</t>    
 
-      <t>This memo updates RFCs 4071 and 4371 with regards to the
+      <t>This memo obsoletes RFC 4371. The changes relate only to the
       selection of trustees. All other aspects of the IETF Trust
-      remain as they are today.</t>
+      remain as they are today. <xref target="trust"/> copies the
+      definition as it was in RFC 4371, only leaving out the part about
+      trustee selection and adding a reference to the IETF Trust website.</t>
       
       <t>For a discussion of why this change is needed and a rationale
       for these specific changes, see <xref
@@ -93,6 +96,22 @@
       
     </section>
     
+    <section anchor="trust" title="IETF Trust">
+
+      <t>A Trust ("the IETF Trust") has been formed for the purpose of
+      acquiring, holding, maintaining, and licensing certain existing and
+      future intellectual property and other property used in connection
+      with the administration of the IETF.  The Trust was formed by the
+      signatures of its Settlors and initial Trustees.  The Settlors, who
+      contributed initial intellectual property to the Trust, were ISOC and
+      the Corporation for National Research Initiatives.  The Beneficiary of
+      the IETF Trust is the IETF as a whole.</t>
+
+      <t>Further details of the IETF Trust may be found at the IETF
+      Trust's website, <eref target="https://trustee.ietf.org/"/>.</t>
+      
+    </section>
+
     <section anchor="selection" title="Selection of Trustees">
       
       <t>This document revises the original Trustee selection procedures
@@ -140,7 +159,7 @@
       
       <t>The processes regarding NomCom appointments and recalls of
       Trustees for the IETF Trust follow those described in <xref
-      target="RFC7437"/>. For the appointments by the IESG, the
+      target="I-D.ietf-iasa2-rfc7437bis"/>. For the appointments by the IESG, the
       IESG is expected to run an open selection process and to consider
       the necessary skill set and conflicts of interest as part of
       that process.</t>
@@ -170,7 +189,9 @@
       to thank Russ Housley, Bob Hinden, Scott Mansfield, Alexey
       Melnikov, Suresh Krishnan, Mirja Kuhlewind, Ben Campbell,
       Spencer Dawkins, Martin Vigoreux, Benjamin Kaduk, and Adrian
-      Farrel for careful review.</t>
+      Farrel for careful review.  Finally, the authors would like to
+      thank the authors of <xref target="RFC4371"/>, as the text from
+      that RFC remains in this document.</t>
 
     </section>
 
@@ -181,26 +202,25 @@
     <references title="Normative References">
       &RFC4071;
       &RFC4371;
-      &RFC7437;
+      &I-D.ietf-iasa2-rfc7437bis;
     </references>
     
     <references title="Informative References">
 
       <reference anchor='I-D.ietf-iasa2-trust-rationale'>
 	<front>
-	  <title>Discussion of the Effects of IASA 2.0 Changes as They Relate to the IETF
-	  Trust</title>
+	  <title>Discussion of the IASA 2.0 Changes as They Relate to the IETF Trust</title>
 
 	  <author initials='J' surname='Arkko' fullname='Jari Arkko'>
 	    <organization />
 	  </author>
 
-	  <date month='September' year='2018' />
+	  <date month='October' year='2018' />
 
 	</front>
-	<seriesInfo name='Internet-Draft' value='draft-ietf-iasa2-trust-rationale-00' />
+	<seriesInfo name='Internet-Draft' value='draft-ietf-iasa2-trust-rationale-03' />
 	<format type='TXT'
-		target='http://www.ietf.org/internet-drafts/draft-ietf-iasa2-trust-rationale-00.txt' />
+		target='http://www.ietf.org/internet-drafts/draft-ietf-iasa2-trust-rationale-03.txt' />
       </reference>
       
     </references>
@@ -209,6 +229,11 @@
 
       <t>RFC Editor: Please remove this section upon publication.</t>
 
+      <t>The -03pre1b version replaced updates of RFCs 4071 and 4371
+      with obsoletion of RFC 4371, and updated the reference to RFC
+      7437 to its newer bis version. It also copied the one remaining
+      paragraph from RFC 4371 to this document.</t>
+      
       <t>The version draft-itef-iasa2-trust-update-02.txt made some
       editorial corrections, as well as clarifying that no
       confirmation is needed in the cases other than the nomcom
