@@ -15,7 +15,7 @@
 <?rfc sortrefs="yes" ?>
 <?rfc compact="yes" ?>
 <?rfc subcompact="no" ?>
-<rfc category="bcp" docName="draft-ietf-iasa2-trust-update-03pre1b" ipr="trust200902" obsoletes="4371">
+<rfc category="bcp" docName="draft-ietf-iasa2-trust-update-03" ipr="trust200902" obsoletes="4371">
 
   <front>
 
@@ -50,7 +50,7 @@
       </address>
     </author>
     
-    <date month="January" year="2019" />
+    <date month="February" year="2019" />
 
     <area>General</area>
 
